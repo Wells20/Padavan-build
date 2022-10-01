@@ -37,7 +37,7 @@ jobs:
         sudo mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: R6220
+        TNAME:R6220
       run: |
         cd /opt/rt-n56u/trunk
         pwd
